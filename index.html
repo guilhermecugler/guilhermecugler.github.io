@@ -1,7 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>Doc.</p>
+    <header>
+        <nav>
+            <h1><a href="#">Guilherme Cugler</a></h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="intro-content">
+            <h2>Olá, eu sou Guilherme Cugler</h2>
+            <p>Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Aqui estão alguns dos meus projetos mais recentes.</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor com experiência em diversas tecnologias e plataformas. Tenho uma paixão por aprender e melhorar constantemente minhas habilidades. Meu objetivo é sempre criar soluções que sejam não apenas funcionais, mas também elegantes e intuitivas.</p>
+    </section>
+    
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="imagens/projeto1.png" alt="Projeto 1" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Scraper Casa dos Dados</h3>
+                    <p>Projeto pessoal que faz o scraping de informações completas de empresas.</p>
+                    <a href="https://github.com/guilhermecugler/Scraper-Casa-dos-Dados" target="_blank">Veja no GitHub</a>
+                </div>
+            </div>
+            <div class="projeto">
+                <img src="imagens/projeto2.png" alt="Projeto 2" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Youtube MP3 Downloader</h3>
+                    <p>Um projeto que baixa áudios em formato MP3 do Youtube com uma interface amigável.</p>
+                    <a href="https://github.com/guilhermecugler/YoutubeMP3Downloader" target="_blank">Veja no GitHub</a>
+                </div>
+            </div>
+            <div class="projeto">
+                <img src="imagens/projeto3.png" alt="Projeto 3" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Cursos Downloader</h3>
+                    <p>Projeto para cliente baixar cursos completos de plataformas diversas.</p>
+                    <a href="" target="_blank">Veja no GitHub</a>
+                </div>
+            </div>
+            <!-- Adicione mais projetos aqui -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <ul class="contato-lista">
+            <li><a href="https://www.linkedin.com/in/guilhermecugler" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/guilhermecugler" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://twitter.com/whoiscugler" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="mailto:guilhermecugler@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+            <li><a href="https://wa.me/5513997230761" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Guilherme Cugler. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImg" src="">
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
