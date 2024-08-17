@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     apks.forEach(apk => {
         const listItem = document.createElement('li');
         const link = document.createElement('a');
-        link.href = `tv/apps/${apk}`;
+        link.href = `apps/${apk}`;
         link.textContent = apk;
         link.classList.add('apk-link');
         listItem.appendChild(link);
