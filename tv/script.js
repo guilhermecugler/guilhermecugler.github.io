@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     redirectButton.addEventListener('click', function() {
-        window.location.href = 'tv/apps/';
+        window.location.href = 'apps/';
     });
 });
