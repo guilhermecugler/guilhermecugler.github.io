@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const apks = [
+        "Aplicativo NOVO Veloznet XC.apk",
         "P2CINE Principal.apk",
         "TurboBlack.apk",
         "Evolution.apk",
