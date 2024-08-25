@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const apks = [
         "Aplicativo NOVO Veloznet XC.apk",
         "Veloznet CAM.apk",
+        "Veloznet Hibrido.apk",
         "Veloznet One.apk",
         "XCIPTV Azul URL.apk"
     ];
