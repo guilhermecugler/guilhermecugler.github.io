@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
         "Veloznet CAM.apk",
         "Veloznet Hibrido.apk",
         "Veloznet One.apk",
+        "TurboBlack.apk",
+        "P2CINE Principal.apk",
+        "P2CineTV2 Amarelo.apk",
+        "TV xc31.apk",
+        "P2CineTV Leve.apk",
+        "Evolution.apk",
         "XCIPTV Azul URL.apk"
     ];
 
