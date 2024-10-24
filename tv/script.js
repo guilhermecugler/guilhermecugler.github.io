@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const apks = [
-        ".apk",
+        "P2CINETURBO.apk",
         "XCIPTV Azul URL.apk",
         "P2CINE Principal.apk",
         "TV xc31.apk",
