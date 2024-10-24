@@ -1,16 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const apks = [
-        "Aplicativo NOVO Veloznet XC.apk",
-        "Veloznet CAM.apk",
-        "Veloznet Hibrido.apk",
-        "Veloznet One.apk",
-        "TurboBlack.apk",
+        "P2CINETURBO.apk",
+        "XCIPTV Azul URL.apk",
         "P2CINE Principal.apk",
-        "P2CineTV2 Amarelo.apk",
         "TV xc31.apk",
         "P2CineTV Leve.apk",
         "Evolution.apk",
-        "XCIPTV Azul URL.apk"
     ];
 
     const apkList = document.getElementById('apk-list');
